@@ -24,7 +24,7 @@ jobs:
                   node-version: 20
                   cache: pnpm
             - run: pnpm up --latest
-            - uses: peter-evans/create-pull-request@v7
+            - uses: peter-evans/create-pull-request@v8
               env:
                   HUSKY: '0'
               with:
